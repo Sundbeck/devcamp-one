@@ -24,8 +24,9 @@
 
     <%= yield %>
     
-    <%= render "shared/nav" %>
-     
+    <div class= "bottom">
+    <%= render "shared/nav", location: "bottom" %>
+    </div>
     
    <!-- <%## if session[:source] %>
      <p> <#%=session[:source] %></p>

@@ -14,15 +14,14 @@
      <p class="notice"><%= notice %></p>
      <p class="alert"><%= alert %></p>
      
-     <div class= "top">
      <%= render "shared/nav", location: "top" %>
-     </div>
+    
      
      <%= login_helper %>
 
     <%= yield %>
     
     <%= source_helper("application") %>
-    
+         
   </body>
 </html>

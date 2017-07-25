@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, clas: "source_greeting")
     end
   end
+  
+  def copyright_generator
+    SundbeckViewTool::Renderer.copyright 'Kevin Sundbeck','All rights reserved'
+  end
 end

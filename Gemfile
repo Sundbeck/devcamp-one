@@ -58,3 +58,4 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'sundbeck_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
